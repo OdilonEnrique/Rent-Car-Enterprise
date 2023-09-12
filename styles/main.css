@@ -1,0 +1,385 @@
+.ourServicesContainer {
+  padding: 2.4rem 0;
+}
+
+.ourServicesContainer h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.cardsOurServices::-webkit-scrollbar {
+  display: none;
+}
+
+.cardsOurServices {
+  margin-top: 2.2rem;
+  padding-left: 2.4rem;
+  display: flex;
+  align-items: start;
+  gap: 2.4rem;
+  overflow: auto;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+}
+
+.cardOurServices:last-child {
+  margin-right: 2.4rem;
+}
+
+.cardOurServices {
+  width: 22rem;
+  scroll-snap-align: center;
+}
+
+.cardOurServices .imageBox {
+  width: 22rem;
+  background: linear-gradient(315deg, #dbefff, #f5fafe, #d1d8e8);
+  border-radius: 0.8rem 0.8rem 0 0;
+  padding: 0.4rem 4.2rem 1.2rem;
+}
+
+.cardOurServices img {
+  width: 100%;
+  transition: scale 300ms;
+}
+
+.cardOurServices img:hover {
+  scale: 1.05;
+}
+
+.cardOurServices .textBox {
+  text-align: justify;
+}
+
+.cardOurServices h3 {
+  font-size: 1.6rem;
+  margin: 1.2rem 0 0.4rem;
+}
+
+.cardOurServices p {
+  font-size: 1.4rem;
+}
+
+.whyChooseUsContainer {
+  background: linear-gradient(315deg, #dbefff, #f5fafe, #d1d8e8);
+  padding: 3.2rem 2.4rem 2.4rem;
+}
+
+.imageSalesPerson {
+  max-width: 22rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.imageSalesPerson .circle:nth-child(1) {
+  height: 24rem;
+  width: 24rem;
+  top: 0rem;
+  left: -1rem;
+}
+
+.imageSalesPerson .circle {
+  border-radius: 100%;
+  position: absolute;
+  background: #00d1;
+  z-index: -1;
+}
+
+.imageSalesPerson img {
+  width: 100%;
+}
+
+.boxWhyChooseUs {
+  margin: 1.6rem 0 0.8rem;
+  text-align: center;
+}
+
+.boxWhyChooseUs h2 {
+  font-size: 2rem;
+}
+
+.cardsWhyChooseUs {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.4rem;
+  max-width: 52rem;
+  margin: 1.6rem auto 0;
+}
+
+.cardWhyChooseUs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  padding: 0 2.4rem;
+}
+
+.cardWhyChooseUs .boxImage {
+  max-width: 4.2rem;
+}
+
+.cardWhyChooseUs img {
+  width: 100%;
+}
+.cardWhyChooseUs p {
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+.howItWorksContainer{
+  padding: 3.2rem 2.4rem;
+}
+
+.howItWorksContainer h2{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.cardsHowItWorks{
+  margin-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.cardHowItWork {
+  width: 24rem;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.cardHowItWork + .cardHowItWork{
+  border-top: 1px solid #d1d8e8;
+  padding-top: 2.4rem;
+}
+
+.cardHowItWork img{
+  width: 100%;
+}
+
+.cardHowItWork h3{
+  font-size: 1.6rem;
+  line-height: 160%;
+}
+
+.cardHowItWork p{
+  font-size: 1.4rem;
+}
+
+@media (min-width: 768px) {
+  .ourServicesContainer {
+    padding: 3.2rem 0;
+  }
+  
+  .ourServicesContainer h2 {
+    font-size: 2.4rem;
+  }
+  
+  .cardsOurServices {
+    margin-top: 2.4rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 3.2rem;
+  }
+  
+  .cardOurServices:last-child {
+    margin-right: 0rem;
+  }
+  
+  .cardOurServices {
+    width: 22rem;
+  }
+  
+  .cardOurServices .imageBox {
+    width: 22rem;
+    padding: 0.8rem 3.2rem 1.6rem;
+  }
+  
+  .cardOurServices h3 {
+    font-size: 1.8rem;
+    margin: 1.4rem 0 0.6rem;
+  }
+  
+  .cardOurServices p {
+    font-size: 1.6rem;
+  }
+  
+  .whyChooseUsContainer {
+    padding: 4.2rem 3.2rem 3.2rem;
+  }
+  
+  .imageSalesPerson {
+    max-width: 28rem;
+  }
+  
+  .imageSalesPerson .circle:nth-child(1) {
+    height: 30.5rem;
+    width: 30.5rem;
+  }
+  
+  .boxWhyChooseUs {
+    margin: 1.8rem 0 1rem;
+  }
+  
+  .boxWhyChooseUs h2 {
+    font-size: 2.4rem;
+  }
+  
+  .cardsWhyChooseUs {
+    margin-top: 1.8rem;
+    gap: 2.8rem;
+  }
+  
+  .cardWhyChooseUs {
+    gap: 1.8rem;
+  }
+  
+  .cardWhyChooseUs .boxImage {
+    max-width: 4.8rem;
+  }
+
+  .cardWhyChooseUs p {
+    font-size: 1.6rem;
+  }
+  
+  .howItWorksContainer{
+    padding: 4.2rem 3.2rem;
+  }
+  
+  .howItWorksContainer h2{
+    font-size: 2.4rem;
+  }
+  
+  .cardsHowItWorks{
+    margin-top: 4.2rem;
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    gap: 2.8rem;
+  }
+  
+  .cardHowItWork {
+    width: 24rem;
+  }
+  
+  .cardHowItWork + .cardHowItWork{
+    border-top: 0;
+    padding-top: 0;
+  }
+  
+  .cardHowItWork h3{
+    font-size: 1.8rem;
+  }
+  
+  .cardHowItWork p{
+    font-size: 1.6rem;
+  }
+  
+}
+
+@media (min-width:1024px) {
+  .ourServicesContainer {
+  padding: 4.2rem 0;
+}
+
+.ourServicesContainer h2 {
+  text-align: center;
+  font-size: 3.2rem;
+}
+
+.cardsOurServices::-webkit-scrollbar {
+  display: none;
+}
+
+.cardsOurServices {
+  margin-top: 3.2rem;
+  gap: 4.2rem;
+}
+
+.cardOurServices:last-child {
+  margin-right: 0rem;
+}
+
+.cardOurServices {
+  width: 28rem;
+}
+
+.cardOurServices .imageBox {
+  width: 28rem;
+  padding: 0.8rem 4.2rem 1.6rem;
+}
+
+.cardOurServices h3 {
+  font-size: 2rem;
+  margin: 1.6rem 0 0.8rem;
+}
+
+.cardOurServices p {
+  font-size: 1.8rem;
+}
+
+.whyChooseUsContainer {
+  display: flex;
+}
+
+.imageSalesPerson {
+  max-width: 36rem;
+}
+
+.imageSalesPerson .circle:nth-child(1) {
+  height: 39rem;
+  width: 39rem;
+}
+
+.boxWhyChooseUs {
+  margin: 3rem 0 1.2rem;
+  margin: auto;
+}
+
+.boxWhyChooseUs h2 {
+  font-size: 3.2rem;
+}
+
+.cardsWhyChooseUs {
+  margin-top: 2rem;
+  gap: 3.2rem;
+}
+
+.cardWhyChooseUs .boxImage {
+  max-width: 5.2rem;
+}
+
+.cardWhyChooseUs p {
+  font-size: 1.8rem;
+}
+
+.howItWorksContainer{
+  padding: 6.4rem 4.2rem;
+}
+
+.howItWorksContainer h2{
+  font-size: 3.2rem;
+}
+
+.cardsHowItWorks{
+  margin-top: 5.6rem;
+}
+
+.cardHowItWork {
+  width: 32rem;
+}
+
+.cardHowItWork h3{
+  font-size: 2rem;
+}
+
+.cardHowItWork p{
+  font-size: 1.8rem;
+}
+
+}

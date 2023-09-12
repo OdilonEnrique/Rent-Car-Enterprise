@@ -1,0 +1,32 @@
+:root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-size: clamp();
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  background: none;
+  border: none;
+}
