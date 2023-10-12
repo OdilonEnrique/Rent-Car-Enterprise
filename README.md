@@ -19,7 +19,7 @@
 
 <div>
  <p>-Html semântico:</p>
- <img src="https://github.com/CiceroEduardo24/Rent-Car-Enterprise/assets/132598847/eab4c7ee-dd25-4026-b6f1-108d6f25575f" width="300">
+ <img src="https://github.com/OdilonEnrique/Rent-Car-Enterprise/assets/132598847/eab4c7ee-dd25-4026-b6f1-108d6f25575f" width="300">
  <p>-Alteração de padrões do browser:</p>
  <img src="https://github.com/CiceroEduardo24/Rent-Car-Enterprise/assets/132598847/acaaa5d7-dd77-4ad4-a933-f3dae8af3064"  width="300">
  <p>-Totalmente reponsivo:</p>
@@ -44,7 +44,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ```bash
 # Clone este repositório
-$ git clone git@github.com:CiceroEduardo24/Rent-Car-Enterprise.git
+$ git clone git@github.com:OdilonEnrique/Rent-Car-Enterprise.git
 # Acesse a pasta do projeto no terminal/cmd
 $ cd Rent-Car
 # Execute a aplicação
