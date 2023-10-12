@@ -1,5 +1,3 @@
-# Rent-Car-Enterprise
-Projeto realizado durante o curso de Desenvolvimento Web no CVT-Jucás
 <h2 align="center"> 
 	Landing page - Rent Car Enterprise 🚗
 </h2>
@@ -13,7 +11,7 @@ Projeto realizado durante o curso de Desenvolvimento Web no CVT-Jucás
 
 ## 📝 Sobre o projeto
 
-✒️ Projeto para conclusão de módulo HTML e CSS do Curso do Desenvolvimento Web;
+✒️ Projeto para conclusão de módulo HTML e CSS do Curso do Desenvolvimento Web no CVT-Jucás;
 
 ---
 
