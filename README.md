@@ -17,4 +17,4 @@ Este projeto foi desenvolvido na conclusão dos módulos de HTML e CSS do curso 
 
 ## Links
 
-- [Deploy](https://emanuelquintino.github.io/RentCar-Enterprise/)
+- [Deploy](https://odilonenrique.github.io/Rent-Car-Enterprise/)
