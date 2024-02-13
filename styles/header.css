@@ -19,6 +19,7 @@ header {
   width: 12rem;
   bottom: -10%;
   right: 11rem;
+  z-index: -1;
 }
 
 .circle2 {
@@ -26,6 +27,7 @@ header {
   width: 26rem;
   bottom: -3%;
   right: -8rem;
+  z-index: -1;
 }
 
 .wheelIcon img {
